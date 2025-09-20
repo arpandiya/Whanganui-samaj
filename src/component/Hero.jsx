@@ -18,13 +18,13 @@ export default function Hero() {
     {
       id: 2,
       img: dashain,
-      description: 'Teej Celebration 2025'
+      description: 'Executive committee members - 2025'
       },
 
       {
         id: 3,
         img: teej,
-        description: 'Happy Teej 2025 🎉'
+        description: 'Community gathering on occassion of Teej - 2025 🎉'
         },
 
   ];

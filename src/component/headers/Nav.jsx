@@ -18,9 +18,9 @@ export default function Nav() {
               />
             </div>
 
-            <div className="col-span-5 place-items-center-safe px-4">
+            <div className="col-span-5 place-items-center px-4">
             <img src={logo} 
-                className="h-12"
+                className="h-12 flex mx-auto"
               />
               <h1 className="font-ubuntu text-white border-b-1">Whanganui Nepalese Society Inc.</h1>
               <h1 className="font-nepali text-blue-100">वाङ्गानुइ नेपाली समाज इन्कर्पोरेटेड </h1>
