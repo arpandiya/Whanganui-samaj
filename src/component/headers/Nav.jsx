@@ -23,7 +23,7 @@ export default function Nav() {
                 className="h-12 flex mx-auto"
               />
               <h1 className="font-ubuntu text-white border-b-1">Whanganui Nepalese Society Inc.</h1>
-              <h1 className="font-nepali text-blue-100">वाङ्गानुइ नेपाली समाज इन्कर्पोरेटेड </h1>
+              <h1 className="font-nepali text-blue-100 text-center">वाङ्गानुइ नेपाली समाज इन्कर्पोरेटेड </h1>
             </div>
 
             <div className="col-span-1">

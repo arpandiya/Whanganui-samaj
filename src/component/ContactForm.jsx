@@ -59,10 +59,10 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full flex justify-center items-center min-h-screen">
+    <div className="w-full flex justify-center items-center">
       <form
         onSubmit={handleSubmit}
-        className="border-2 border-blue-50 rounded-md p-6"
+        className="border-2 border-blue-50 rounded-md p-6 mx-6"
       >
         <h1 className="w-full bg-amber-50 rounded text-xl py-2 text-center">
           Contact Form

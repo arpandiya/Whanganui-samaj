@@ -4,6 +4,7 @@ import member2 from '/images/kumar.webp'
 import member3 from '/images/diya.webp'
 import member4 from '/images/madan.webp'
 import member5 from '/images/ram.webp'
+import member6 from '/images/narayan-nepal.webp'
 import TeamCard from './TeamCard'
 
 
@@ -15,7 +16,7 @@ export default function Team() {
         <div className="">
             <div className="flex justify-center pt-4">
                <TeamCard img={member1} name={"Dr. Raj Khadka"} type={"President"}/>
-
+               <TeamCard img={member6} name={"Dr. Narayan Nepal"} type={"Senior Advisor"}/>
             </div>
         </div>
     <div className="flex flex-wrap justify-center">
