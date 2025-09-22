@@ -9,9 +9,10 @@ import danphe_bird from '/images/danphe.webp'
 
 export default function IpadNav() {
   return (
-    <div className="min-h-[120px] flex justify-center items-center pt-6 w-full h-full
+    <div className="sticky top-0">
+    <div className=" min-h-[120px] flex justify-center items-center pt-6 w-full h-full 
     ">
-        <div className="w-full grid grid-cols-12 place-content-between place-items-center-safe 
+        <div className=" w-full grid grid-cols-12 place-content-between place-items-center-safe 
            
           ">
              <div className="col-span-6 flex sm:min-w-[350px] sm:h-full sm:items-center sm:justify-center ">
@@ -26,16 +27,17 @@ export default function IpadNav() {
 
             <div className="col-span-6 sm:min-w-[80%]">
             <ul className="font-ubuntu text-white sm:flex sm:justify-between ">
-              <li className="text-sm px-2"><a href="/">Home</a></li>
-              <li className="text-sm px-2"><a href="/">Executive Members</a></li>
-              <li className="text-sm px-2"><a href="/">About</a></li>
-              <li className="text-sm px-2"><a href="/">Contact</a></li>
+              <li className="text-sm px-2 hover:text-red-100 hover:scale-105 hover:ease-in-out hover:shadow-lg"><a href="#home">Home</a></li>
+              <li className="text-sm px-2 hover:text-red-100 hover:scale-105 hover:ease-in-out hover:shadow-lg"><a href="#team">Executive Members</a></li>
+              <li className="text-sm px-2 hover:text-red-100 hover:scale-105 hover:ease-in-out hover:shadow-lg"><a href="#about">About</a></li>
+              <li className="text-sm px-2 hover:text-red-100 hover:scale-105 hover:ease-in-out hover:shadow-lg"><a href="#contact">Contact</a></li>
                 
 
             </ul>
             </div>
 
         </div>
+    </div>
     </div>
   )
 }

@@ -53,7 +53,7 @@ export default function Hero() {
     };
 
     return (
-      <div className="relative w-full max-w-4xl mx-auto sm:min-w-screen">
+      <div className="relative w-full max-w-4xl mx-auto sm:min-w-screen" id="home">
         {/* Carousel Container */}
         <div className="overflow-hidden rounded-lg shadow-lg">
           <div className="relative h-96 sm:min-h-[700px]">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="font-ubuntu text-blue-100 min-h-200 my-4 sm:max-w-[60%] sm:mx-auto">
+    <div className="font-ubuntu text-blue-100 min-h-200 my-4 sm:max-w-[60%] sm:mx-auto" id="about">
 <div className="flex justify-center ">
         <h3 className="text-lg font-bold border-b-2 border-blue-50 text-white px-2">About</h3>
         </div>

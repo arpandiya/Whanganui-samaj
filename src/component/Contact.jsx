@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 
 export default function Contact() {
   return (
-    <div className="bg-linear-to-r to-teal-600 min-h-[770px] font-ubuntu py-4 border-t-2 border-white pt-4">
+    <div className="bg-linear-to-r to-teal-600 min-h-[770px] font-ubuntu py-4 border-t-2 border-white pt-4" id="contact">
         <div className="flex justify-center py-2 my-6">
         <h3 className="text-lg font-bold border-b-2 border-blue-50 text-white px-4">Contact</h3>
         
