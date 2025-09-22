@@ -5,7 +5,7 @@ export default function TeamCard({img, name, type}) {
     <div className="mx-2 my-2 px-1 py-1 border-4 border-blue-100 text-white rounded">
           <div className="border-1 border-blue-50">
           <img src={img}
-          className="h-44 object-contain "
+          className="h-44 object-contain sm:h-72"
           />  
         </div>
         <div className="text-center py-1 bg-linear-to-b from-purple-400 to-blue-900">

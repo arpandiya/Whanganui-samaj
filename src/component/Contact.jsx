@@ -9,7 +9,10 @@ export default function Contact() {
         <h3 className="text-lg font-bold border-b-2 border-blue-50 text-white px-4">Contact</h3>
         
         </div>
+        <div className="flex flex-wrap justify-center items-center">
+        <div className="">
         <ContactForm />
+        </div>
         {/* <div className="flex justify-center border-2 border-blue-50 mx-10 p-2 rounded-xl my-4 mt-6">
             
             <article className="flex-col justify-between items-center">
@@ -29,20 +32,20 @@ export default function Contact() {
             </article>
         </div> */}
        
-        <div className="flex justify-around py-4 mx-4">
+        <div className="flex justify-around py-4 mx-4 sm:col-span-2 ">
         
-        <div className="h-48 object-contain border-2 border-white my-6">
+        <div className="h-48 object-contain  my-6 
+        
+        ">
             {/* <img src={banner} 
             className="h-32"
             /> */}
-            
-
-<iframe width="340" height="200" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=7%20Silverdale%20street%20Whanganui+(Whanganui%20Nepalese%20Society%20Inc.)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
- <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9d188b24c6fe9123876830fce692975a6fc3f840'></script>
-
+              <iframe className="sm:min-w-[400px] sm:min-h-[150px] min-lg:min-h-[590px] min-lg:min-w-[400px] min-lg:mt-[-200px] border-2 border-white p-2" width="340" height="200" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=7%20Silverdale%20street%20Whanganui+(Whanganui%20Nepalese%20Society%20Inc.)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+              <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9d188b24c6fe9123876830fce692975a6fc3f840'></script>
         </div>
 
        
+        </div>
         </div>
     </div>
   )

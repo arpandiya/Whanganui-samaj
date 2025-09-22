@@ -53,10 +53,10 @@ export default function Hero() {
     };
 
     return (
-      <div className="relative w-full max-w-4xl mx-auto ">
+      <div className="relative w-full max-w-4xl mx-auto sm:min-w-screen">
         {/* Carousel Container */}
         <div className="overflow-hidden rounded-lg shadow-lg">
-          <div className="relative h-96">
+          <div className="relative h-96 sm:min-h-[700px]">
             {slides.map((slide, index) => (
               <div
                 key={slide.id}
@@ -67,7 +67,7 @@ export default function Hero() {
                 <img
                   src={slide.img}
                   alt={slide.description}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain sm:object-cover sm:min-h-[500px]"
                 />
                 <div className="absolute bottom-0 w-full bg-linear-to-l from-pink-700 to-purple-600 bg-opacity-50 text-white p-4">
                   <p className="text-sm text-center">{slide.description}</p>

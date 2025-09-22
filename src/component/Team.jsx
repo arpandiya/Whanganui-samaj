@@ -10,8 +10,10 @@ import TeamCard from './TeamCard'
 
 export default function Team() {
   return (
-    <div className=" font-ubuntu bg-linear-to-r from-blue-700 to-red-700 h-full py-8 border-b-2 border-blue-50 flex-col place-items-center">
-        <h2 className="text-white text-center w-42 pb-0.5  border-b-2 mx-auto">Committee Members</h2>
+    <div className=" font-ubuntu bg-linear-to-r from-blue-700 to-red-700 h-full py-8 border-b-2 border-blue-50 flex-col place-items-center
+    
+    ">
+        <h2 className="text-white text-center w-42 pb-0.5  border-b-2 mx-auto font-bold tracking-wide">Executive Members</h2>
     
         <div className="">
             <div className="flex justify-center pt-4">
