@@ -14,8 +14,10 @@
     "@tailwindcss/vite": "^4.1.13",
     "aos": "^2.3.4",
     "dotenv": "^17.2.2",
+    "framer-motion": "^12.23.18",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-intersection-observer": "^9.16.0",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
