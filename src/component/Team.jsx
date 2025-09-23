@@ -44,7 +44,7 @@ export default function Team() {
 
             <hr className="drop-shadow-red-50 drop-shadow-md w-4/5 my-4 opacity-50"/>
             
-            <div className="flex flex-wrap items-center justify-around max-w-[50%]">
+            <div className="flex flex-wrap items-center justify-around">
             <TeamCard img={member6} name={"Dr. Narayan Nepal"} type={"Senior Advisor"}/>
             <TeamCard img={arpan} name={"Mr. Arpan Subedi"} type={"Tech Lead"}/>
             </div>
