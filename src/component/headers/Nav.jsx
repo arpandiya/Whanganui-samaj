@@ -22,7 +22,7 @@ export default function Nav() {
               className="h-8 mix-blend-multiply sm:hidden"
               alt="nepal flag"
               />
-              <div className="hidden sm:flex sm:min-w-[350px] sm:h-full sm:items-center sm:justify-center">
+              <div className="hidden sm:flex sm:min-w-[350px] sm:w-full sm:h-full sm:items-center sm:justify-center">
               <img src={logo} 
                 className="h-18 flex mx-auto sm:px-4"
               />
@@ -38,7 +38,7 @@ export default function Nav() {
             
             ">
             <img src={logo} 
-                className="h-12 flex sm:hidden"
+                className="h-12 flex mx-auto sm:hidden"
               />
               <h1 className="font-ubuntu text-white border-b-1">Whanganui Nepalese Society Inc.</h1>
               <h1 className="font-nepali text-blue-100 text-center">वाङ्गानुइ नेपाली समाज इन्कर्पोरेटेड </h1>
